@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sun.pillow1.Home">
+    <com.sa90.materialarcmenu.ArcMenu
+        android:id="@+id/arcMenu"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="200dp"
+        app:menu_scr="@drawable/setting"
+        app:menu_color="@color/colorPrimaryDark"
+        app:menu_radius="200dp"
+        app:menu_ripple_color="@color/darker_gray"
+        app:menu_open="arc_right"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_volume"
+            android:onClick="volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/volume"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_call"
+            android:layout_width="wrap_content"
+            android:onClick="call"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/call_white"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="alarm"
+            android:src="@drawable/alarm"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="light"
+            android:layout_margin="10dp"
+            android:src="@drawable/light_white"
+            app:backgroundTint="#0fb33d" />
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_wifi"
+            android:layout_width="wrap_content"
+            android:onClick="wifi"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/wifi"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_logout"
+            android:layout_width="wrap_content"
+            android:onClick="logout"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@android:mipmap/sym_def_app_icon"
+            app:backgroundTint="#0fb33d" />
+
+
+    </com.sa90.materialarcmenu.ArcMenu>
+
+
+</RelativeLayout>

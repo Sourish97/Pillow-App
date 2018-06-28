@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "264757007158",
+    "firebase_url": "https://pillow-2baf2.firebaseio.com",
+    "project_id": "pillow-2baf2",
+    "storage_bucket": "pillow-2baf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264757007158:android:3a5f5c03a9366ee5",
+        "android_client_info": {
+          "package_name": "com.sun.pillow1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264757007158-vr8rtbk4vtlstjhhj8jgdf03firpmii8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcu505jZGLLyRY7K_CRgIwtCWM5Qs27c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

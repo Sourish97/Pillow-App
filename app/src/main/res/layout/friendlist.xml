@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:src="@android:mipmap/sym_def_app_icon"
+        android:layout_height="60dp"
+        android:id="@+id/display_pic"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="raunakvijan"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/friend_name"
+        android:layout_toRightOf="@+id/display_pic"
+         />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:id="@+id/status"
+        android:text="available"
+        android:layout_below="@+id/friend_name"
+        android:layout_toEndOf="@+id/display_pic" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/star"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:id="@+id/fav"/>
+
+</RelativeLayout>
